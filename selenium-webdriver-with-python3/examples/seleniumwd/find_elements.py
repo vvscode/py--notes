@@ -6,6 +6,18 @@ baseUrl = "https://letskodeit.teachable.com/pages/practice"
 driver = webdriver.Firefox()
 driver.get(baseUrl)
 
+"""
+There	are	various	strategies	to	locate	elements	in	a	page.
+• find_element_by_id()
+• find_element_by_name()
+• find_element_by_xpath()
+• find_element_by_css_selector()
+• find_element_by_link_text()
+• find_element_by_partial_link_text()
+• find_element_by_class_name()
+• find_element_by_tag_name()
+"""
+
 
 class FindByIdName():
 
@@ -65,6 +77,19 @@ class FindByClassTag():
 
 
 class ByDemo():
+    """
+    driver.find_element(By.XPATH,		"xpath	expression")
+    These	are	the	attributes	available	for	By:
+    • ID	=	"id"
+    • NAME	=	"name"
+    • XPATH	=	"xpath	expression"
+    • CSS_SELECTOR	=	"css	selector	expression"
+    • LINK_TEXT	=	"link	text"
+    • PARTIAL_LINK_TEXT	=	"partial	link	text"
+    • CLASS_NAME	=	"class	name"
+    • TAG_NAME	=	"tag	name"
+    """
+
 
     def test(self):
         elementById = driver.find_element(By.ID, "name")
@@ -84,6 +109,20 @@ class ByDemo():
 
 
 class ListOfElements():
+
+
+    """
+    Finding	Multiple	Elements
+    • find_elements_by_name()
+    • find_elements_by_xpath()
+    • find_elements_by_link_text()
+    • find_elements_by_partial_link_text()
+    • find_elements_by_tag_name()
+    • find_elements_by_class_name()
+    • find_elements_by_css_selector()
+    driver.find_elements(By.XPATH,		"xpath	expression")
+    """
+
 
     def test(self):
         elementListByClassName = driver.find_elements_by_class_name("inputs")
