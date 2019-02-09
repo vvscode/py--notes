@@ -6,8 +6,8 @@ import collections
 email_structure = collections.namedtuple(
     ('email_structure'), ['id', 'sender', 'subject', 'body'])
 
-GMAIL_LOGIN = "Ð½Ð½Ð½Ð½Ð½Ð@gmail.com"
-GMAIL_PASSWORD = "ÑÑÑÑÑ"
+GMAIL_LOGIN = "xxx@gmail.com"
+GMAIL_PASSWORD = "yyyy+"
 GMAIL_SERVER = "imap.gmail.com"
 
 
@@ -51,8 +51,32 @@ def read_email_from_gmail(*, server, login, password, limit=2):
             sender=email_message['from']
         )
 
+def delete_email_from_gmail(*, server, login, password, limit=1):
+    mail = imaplib.IMAP4_SSL(server)
+    mail.login(login, password)
+    mail.select('inbox')
+
+    type, data = mail.search(None, 'ALL')
+    mail_ids = data[0]
+
+    id_list = mail_ids.split()
+    first_email_id = int(id_list[0])
+    latest_email_id = int(id_list[-1])
+
+    limit_counter = 0
+    for i in range(latest_email_id, first_email_id, -1):
+        limit_counter += 1
+        if limit_counter > limit:
+            break
+        mail.store(str(i), '+FLAGS', '\\Deleted')
+
+    mail.expunge()
+    mail.close()
+    mail.logout()
 
 if __name__ == '__main__':
     for message_data in read_email_from_gmail(server=GMAIL_SERVER,
                                               login=GMAIL_LOGIN, password=GMAIL_PASSWORD):
-        print(message_data.sender, message_data.subject, message_data.body)
+        print(message_data.id, message_data.subject)
+    delete_email_from_gmail(server=GMAIL_SERVER,
+                                              login=GMAIL_LOGIN, password=GMAIL_PASSWORD)
