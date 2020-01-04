@@ -1,0 +1,2 @@
+Pillow==6.2.1
+requests-html==0.10.0

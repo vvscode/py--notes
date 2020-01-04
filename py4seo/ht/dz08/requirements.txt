@@ -1,0 +1,2 @@
+reppy==0.4.14
+requests-html==0.10.0
