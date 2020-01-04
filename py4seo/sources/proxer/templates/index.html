@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Proxy Checker">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+    <title>Proxy Checker</title>
+    <!-- Bootstrap core CSS -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="static/css/sticky-footer.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- Begin page content -->
+    <div class="container">
+      <div class="page-header m-t-1">
+        <h1>Proxy Checker</h1>
+      </div>
+      <div>
+        <p>Python Example to communicate with API</p>
+        <pre id="code1">
+import requests
+
+url = 'http://proxy.seoshnik.top/fresh?key=YOUR_SECRET_KEY'
+
+resp = requests.get(url)
+
+print(resp.status_code)
+print(resp.text.split()[:30])
+
+        </pre>
+        <p>Output:</p>
+        <pre id="code2">
+['184.1.66.122:14086', '179.157.2.140:52120', '71.54.145.189:10240',
+ '184.102.108.199:18492', '177.140.20.8:54212', '189.62.78.8:34166',
+ '187.66.46.69:35715', '175.139.218.9:8080', '71.213.218.164:31000',
+ '187.106.114.230:45829', '182.253.37.195:8080', '99.194.28.154:33235',
+ '76.0.138.72:13253', '76.0.97.29:55440', '184.3.219.185:38455',
+ '65.130.31.167:41134', '189.121.29.70:48827', '138.185.247.25:33555',
+ '189.7.156.59:23477', '187.36.229.214:16502', '95.165.163.146:8888',
+ '223.241.79.180:1080', '184.158.74.31:13082', '184.3.62.194:25256',
+ '69.179.7.59:42721', '201.67.41.198:8083', '182.141.48.65:9000',
+ '23.231.172.35:9999', '65.130.178.226:13563', '207.118.136.172:41907']
+        </pre>
+      </div>
+    </div>
+    <br />
+
+    <footer class="footer">
+      <div class="container">
+        <small>Feel free to write any questions and proposals to author <a href="https://www.facebook.com/4e.sergei" target="_blank">Sergey Chernenko</a></small>
+      </div>
+    </footer>
+
+  <script>
+      String.prototype.escapeHTML = function () {
+        return(
+          this.replace(/>/g,'&gt;').
+               replace(/</g,'&lt;').
+               replace(/"/g,'&quot;')
+        );
+      };
+      var codeEl1 = document.getElementById('code1');
+      if (codeEl1) {
+        codeEl1.innerHTML = codeEl1.innerHTML.escapeHTML();
+      }
+      var codeEl2 = document.getElementById('code2');
+      if (codeEl2) {
+        codeEl2.innerHTML = codeEl2.innerHTML.escapeHTML();
+      }
+    </script>
+
+  </body>
+</html>

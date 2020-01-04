@@ -1,0 +1,17 @@
+[Unit]
+Description=Proxy Checker API
+
+[Service]
+PIDFile=/run/trans/pid
+User=root
+Group=root
+WorkingDirectory=/root/proxer
+ExecStart=/root/miniconda3/envs/dor/bin/python proxer.py
+ExecReload=/bin/kill -s HUP $MAINPID
+ExecStop=/bin/kill -s TERM $MAINPID
+PrivateTmp=true
+Restart=always
+Nice=0
+
+[Install]
+WantedBy=multi-user.target
