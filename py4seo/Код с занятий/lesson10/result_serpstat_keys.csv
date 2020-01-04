@@ -1,0 +1,401 @@
+keyword,cost,region_queries_count
+python,0.219719,27100
+python online,0.28185,2900
+online python,0.163959,1900
+download python,0.43513,1600
+list python,0.398413,1600
+python 3,0.363578,1600
+python download,0.43513,1600
+python re,0.110837,1300
+re python,0.159803,1300
+python regexp,0.159803,1300
+python requests,0,1300
+python for,0.673787,1300
+python list,0.173598,1300
+list in python,0.361584,1300
+regex python,0.161146,1300
+python regex,0.111406,1300
+python range,0.310217,1300
+for python,0.673787,1300
+python request,0,1000
+random python,0,1000
+python in range,0,1000
+set python,2.76402,1000
+map python,0,1000
+python скачать,0.156117,1000
+requests python,0,1000
+python random,0,1000
+range python,0,1000
+python crfxfnm,0.156117,1000
+python map,0,1000
+python set,2.76402,1000
+python split,0,880
+split python,0,880
+anaconda python,0,880
+ide for python,0.124675,880
+python шву,0.155336,880
+python уроки,0.27555,880
+python djongo,0.27299,880
+jango python,0.272462,880
+anaconda for python,0,880
+djongo python,0.355068,880
+python lamdba,0.093382,880
+isset python,0.126313,880
+if else python,0,880
+else if python,0,880
+map in python,0,880
+elseif python,0,880
+python dictonary,0.087486,880
+python lamda,0.093382,880
+python for if,0,880
+for dict python,0.087486,880
+sets python,0.126313,880
+ide python,0.561409,880
+datetime python,0,880
+python if else,0.18189,880
+python dictionary,0.161921,880
+python lambda,0.185413,880
+python anacoda,0,880
+python ude,0.561409,880
+python if,0,880
+python урок,0.27555,880
+python settings,0.126313,880
+python ide,0.154544,880
+python jango,0.27299,880
+dict in python,0.328653,880
+else if in python,0,880
+string in python,0.05811,880
+strings in python,0.05811,880
+python lambdas,0.0910241,880
+anakonda python,0,880
+python dictionnary,0.087486,880
+python isset,0.126313,880
+annaconda for python,0,880
+annaconda python,0,880
+python string,0.475466,880
+python datetime,0,880
+dictionary python,0.161921,880
+python print,0,720
+format python,0,720
+sorted in python,0,720
+logging python,0,720
+python forma,0,720
+python try exception,0.022309,720
+python tutoiral,0.289975,720
+python date type,0,720
+python logger,0,720
+formatted string in python,0,720
+logs in python,0,720
+sorting python,0,720
+python tutortial,0.289975,720
+try except in python,0.022309,720
+try except python,0.022309,720
+json in python,0,720
+print in python,0.286016,720
+tuples python,0,720
+sort in python,0,720
+what is a class in python,0.38163,720
+python sort,0,720
+python tuple,0.00255145,720
+python string format,0,720
+python selenium,0.497983,720
+selenium python,0.496155,720
+python try except,0.05232,720
+python logging,0,720
+string python,0,720
+lambda python,0,720
+json python,0,720
+python else if,0,720
+python json,0,720
+print python,0,720
+string format python,0,720
+jsonify python,0,720
+python sort by,0,720
+python tutoril,0.289975,720
+python tutorial,0.154301,720
+python format string,0,720
+python turorial,0.289975,720
+tuples in python,0,720
+python tuples,0,720
+datetime in python,0,720
+what is class in python,0.371993,720
+python clas,0.38163,720
+python logginh,0,720
+python date time,0,720
+python calss,0.38163,720
+python loggin,0,720
+jsonpath python,0,720
+log in python,0,720
+try exception python,0.022309,720
+python log,0,720
+python sorting,0,720
+logger in python,0,720
+tuple python,0.00255145,720
+python format,0,720
+python class,0.755709,720
+classes in python,0.191585,590
+monty python,0.178205,590
+python loop,0.85554,590
+python input,0,590
+what is enumerate in python,0,590
+timer python,0,590
+python forloop,0.194822,590
+python writing file,0,590
+writing files python,0,590
+array in python,0,590
+write file in python,0,590
+python loops,0.194822,590
+python file writing,0,590
+for loops in python,0.194822,590
+python zip,0,590
+flask python,0.130289,590
+python thread,0.288887,590
+python for loop,0,590
+class python,0.191585,590
+array python,0,590
+write a file in python,0,590
+python timer,0,590
+input python,0,590
+threading python,0,590
+loops python,0.194822,590
+python for loops,0.194822,590
+writing files in python,0,590
+enumeration python,0,590
+write files python,0,590
+threading in python,0,590
+time in python,0,590
+yield python,0,590
+python time,0.259915,590
+python write to file,0,590
+python yield,0,590
+python assert,0,590
+python array,0.164423,590
+python flask,0.000704408,480
+assert python,0,480
+replace python,0,480
+thread python,0,480
+join python,0,480
+install python,0,480
+python с нуля,0.29438,480
+python types,0,480
+types python,0,480
+intall python,0,480
+python exeption,0.043613,480
+python zi,0,480
+python readfile,0,480
+openfile python,0,480
+decorators python,0,480
+python instal,0,480
+read files python,0,480
+python type of,0,480
+reading file in python,0,480
+python slee,0,480
+sort list python,0,480
+def python,0.200379,480
+sleep in python,0,480
+append in python,0,480
+python list sort,0,480
+python count,0,480
+sleep python,0,480
+exception python,0.043613,480
+instal python,0,480
+flask for python,0.004975,480
+flash python,0.004975,480
+except in python,0.0425112,480
+read from file python,0,480
+how to split a string in python,0,480
+python operator,0.367364,480
+python or operator,0.367364,480
+python join,0,480
+python 2.7,0.1037,480
+python panda,0.333331,480
+open file in python,0,480
+pamdas python,0.333331,480
+python string replace,0,480
+python string split,0,480
+python padas,0.333331,480
+python pandas,0.333331,480
+python while,0,480
+python file write,0,480
+write to file python,0,480
+reading files python,0,480
+python read from file,0,480
+read file python,0,480
+enumerate python,0,480
+python enumerate,0,480
+скачать python,0.144078,480
+python threading,0.188846,480
+python exceptions,0,480
+python install,0,480
+python write file,0,480
+python file read,0,480
+python replace,0,480
+read file in python,0,480
+python except,0.043613,480
+zip python,0,480
+python with open file,0,480
+with file open python,0,480
+python counter,0,480
+pandas python,0.353541,480
+telegram bots python,0.150783,480
+python com,0.503769,480
+python telegrambot,0.150783,480
+except python,0.043613,480
+python str replace,0,480
+time python,0,480
+open a file in python,0,480
+operator python,0.367364,480
+read a file in python,0,480
+split string in python,0,480
+def in python,0.200379,480
+how to read a file in python,0,480
+strip in python,0,480
+file open python,0,480
+reading a file in python,0,480
+sort a list python,0,480
+opening a file in python,0,480
+operator in python,0.367364,480
+sort a list in python,0,480
+python operators,0.367364,480
+read files in python,0,480
+reading files in python,0,480
+define python,0.200379,480
+python execpt,0.043613,480
+type in python,0,480
+open file with python,0,480
+open a file python,0,480
+decorator python,0,480
+python read in file,0,480
+types in python,0,480
+python edu,0.223106,480
+exceptions python,0.043613,480
+counter in python,0,480
+counter python,0,480
+panda for python,0.333331,480
+python type,0,480
+python sleep,0,480
+python read file,0.604225,480
+python exception,0,480
+python unittest,0.735268,480
+python open file,0.337265,480
+python split string,0,480
+learning python,0.375555,390
+open file python,0.659588,390
+python def,0.298802,390
+function python,0.068333,390
+python decorators,0.280314,390
+mysql python,0,390
+filter python,0,390
+python file open,0.659588,390
+split string python,0,390
+python round,0,390
+python replace string,0,390
+python append,0.12562,390
+count python,0,390
+python learning,0.372425,390
+string replace python,0,390
+idle python,0.613402,390
+unittest python,0.53187,390
+python sort list,0,390
+python strip,0,390
+python для детей,0.042188,390
+python online compiler,0.221998,390
+python function,0.0531307,390
+functions in python,0.0677639,390
+python typeof,0,390
+list sort python,0,390
+python kivy,0.409383,390
+python org,0.188518,390
+bytes python,0.309713,390
+python cvs,0,390
+python byte,0.309713,390
+python enums,0,390
+python with as,0,390
+virtual env python,0,390
+enums in python,0,390
+gui for python,1.61014,390
+python numy,0.074555,390
+gui with python,1.61014,390
+enum python,0,390
+functional python,0.043977,390
+online compiler python,0.185802,390
+python guis,1.61014,390
+learning in python,0.315249,390
+python leran,0.315249,390
+laern python,0.315249,390
+python lear,0.315249,390
+lear python,0.315249,390
+python with,0.172995,390
+python virtualenv,0,390
+python numpy,0.071622,390
+python filter,0,390
+python android,0,390
+round python,0,390
+append python,0.12562,390
+python decorator,0,390
+string split python,0,390
+python telegram bot,0,390
+learn python,0.293815,390
+python for android,0,390
+python idle,0.613402,390
+python dle,0.638471,390
+learning with python,0.315249,390
+python leraning,0.315249,390
+gui in python,1.61014,390
+python with gui,1.61014,390
+python unitest,0.749275,390
+with as python,0,390
+python functional,0.043977,390
+python num,0.074555,390
+unit testing in python,0.749275,390
+unitary test python,0.749275,390
+python learnin,0.638098,390
+python gui,0.84047,390
+python mysql,1.00288,390
+python reduce,1.03498,390
+python csv,0,390
+python list to string,0.143825,320
+virtualenv python,0,320
+import python,0,320
+kivy python,0,320
+numpy python,0.080919,320
+gui python,0.749293,320
+venv python,0,320
+property python,0,320
+reduce python,0,320
+subprocess python,0,320
+with python,0,320
+numpy in python,0.05796,320
+список python,0,320
+os python,0,320
+python enum,0,320
+ckjdfhm python,0.150689,320
+python rybub,0.097748,320
+rehcs python,0.718491,320
+python multiprocess,0,320
+turtle python,0,320
+python helloworld,0.139541,320
+python turtle,0,320
+multiprocess python,0,320
+python 3 venv,0,320
+math in python,0,320
+commenting python,0,320
+installing pip for python,0,320
+python with open as,0.28895,320
+import in python,0,320
+super in python,0,320
+python swith,0,320
+python commetns,0,320
+list comprehension in python,0.064593,320
+maths python,0,320
+python import from,0,320
+byte python,0.055895,320
+python hello world,0.139541,320
+python imort,0,320
+open in python,0.28895,320
+comments in python,0,320
+comment in python,0,320
+try in python,0,320
+python how to install pip,0,320
+python книги,0.101479,320
+python open,0,320

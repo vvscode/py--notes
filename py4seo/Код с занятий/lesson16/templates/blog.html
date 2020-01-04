@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<div class="col-lg-8 mb-5 mb-lg-0">
+    <div class="blog_left_sidebar">
+
+        {% for page in pages %}
+        <article class="blog_item">
+            <div class="blog_details">
+                <a class="d-inline-block" href="/{{ page.slug }}">
+                    <h2>{{ page.key }}</h2>
+                </a>
+                {% if page.text %}
+                <p>{{ page.text | truncate(100, True) }}</p>
+                {% endif %}
+                <ul class="blog-info-link">
+                    <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
+                    <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
+                </ul>
+            </div>
+        </article>
+        {% endfor %}
+
+        {% include 'partials/paginator.html' %}
+
+    </div>
+</div>
+{% endblock %}
