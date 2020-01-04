@@ -12,7 +12,7 @@ result_file = 'urls_essaysforliterature.txt'
 
 treads = 3
 
-proxy_key = 'a371df71a669b9fe4b5d06d2e423cde6'
+proxy_key = 'xxxx'
 proxy_url = "http://api.best-proxies.ru/proxylist.txt?key={}&limit=0&type=http,https".format(proxy_key)
 
 

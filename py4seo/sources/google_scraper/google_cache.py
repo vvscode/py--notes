@@ -14,7 +14,7 @@ base_link = 'http://webcache.googleusercontent.com/search?q={}&ie=utf-8&oe=utf-8
 
 treads = 50
 
-proxy_key = '42d44afc61446caa32da5a1d6c1a6d1e'
+proxy_key = 'xxxxx'
 proxy_url = "http://api.best-proxies.ru/proxylist.txt?key={}&limit={}&type=socks5".format(proxy_key, treads*10)
 
 

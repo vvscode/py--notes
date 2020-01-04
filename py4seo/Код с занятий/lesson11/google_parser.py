@@ -31,7 +31,7 @@ def get_proxy():
     if ((t2-T1) > TIMEOUT) or not len(PROXIES):
         url = 'http://api.best-proxies.ru/proxylist.txt'
         params = {
-            'key': 'b6e6bc8371eeabe14ab75b29464ab787',
+            'key': 'xxxxx',
             'type': 'socks4,socks5',
             # 'country': 'gb,us',
             'includeType': 1,

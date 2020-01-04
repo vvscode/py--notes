@@ -16,7 +16,7 @@ website = 'rushanessay.com'
 
 treads = 100
 
-proxy_key = '42d44afc61446caa32da5a1d6c1a6d1e'
+proxy_key = 'xxxx'
 proxy_url = "http://api.best-proxies.ru/proxylist.txt?key={}&limit={}&type=socks5&country=US".format(proxy_key, treads*10)
 
 

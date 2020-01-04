@@ -6,7 +6,7 @@ from requests_html import HTMLSession
 from bs4 import BeautifulSoup
 
 api_url = 'http://api.text.ru/post'
-api_key = '149528e60a44395ac4792d550d47061b'
+api_key = 'xxxx'
 exceptdomain = 'parkinson.su, karkasniy-dom.com'
 stage = str(input('Input the step of getting data(1 - send request or 2 - get result): \n'))
 

@@ -10,7 +10,7 @@ writer = DictWriter(f, fieldnames=fieldnames)
 writer.writeheader()
 
 
-token = '76b6afb425c21c41ef53027f89202f26'
+token = 'xxxxx'
 se = 'g_ua'
 api_method = 'keywords'
 q = 'python'

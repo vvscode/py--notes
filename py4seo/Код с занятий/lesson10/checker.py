@@ -10,7 +10,7 @@ urls = [
 
 
 api_url = 'https://content-watch.ru/public/api/'
-api_key = 'LaaZxj2RH0vRQDB'
+api_key = 'xxxx'
 
 
 with open('my_site_uniquness.csv', 'a') as f:
@@ -43,4 +43,3 @@ with open('my_site_uniquness.csv', 'a') as f:
         f.write(f'"{url}"\t"{uniq}"\t"{all_duplicates}"\n')
 
 print('All done!')
-
